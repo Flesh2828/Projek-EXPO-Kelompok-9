@@ -11,9 +11,9 @@ $publicPage = $publicPage ?? false; // flag to hide global UI for login/register
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Prototipe-Hanif-Hafidz/public/css/member.css">
-    <script src="/Prototipe-Hanif-Hafidz/public/js/member-data.js" defer></script>
-    <script src="/Prototipe-Hanif-Hafidz/public/js/member.js" defer></script>
+    <link rel="stylesheet" href="../public/css/member.css">
+    <script src="../public/js/member-data.js" defer></script>
+    <script src="../public/js/member.js" defer></script>
 </head>
 <body>
     <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">

@@ -49,9 +49,9 @@ Aplikasi berjalan pada **PHP Native 8.x** dan **MySQL / MariaDB** menggunakan we
 ### 1. Letakkan Folder Proyek di XAMPP htdocs
 Pastikan folder proyek berada pada:
 ```
-D:\XAMPP\htdocs\Prototipe-Hanif-Hafidz
+D:\XAMPP\htdocs\Projek-EXPO-Kelompok-9
 ```
-*(atau `C:\xampp\htdocs\Prototipe-Hanif-Hafidz` sesuai letak instalasi XAMPP Anda)*
+*(atau `C:\xampp\htdocs\Projek-EXPO-Kelompok-9` sesuai letak instalasi XAMPP Anda)*
 
 ### 2. Jalankan Apache & MySQL
 Buka **XAMPP Control Panel**, lalu klik tombol **Start** pada:
@@ -64,29 +64,28 @@ Impor skrip database `database/schema_mysql.sql` melalui **phpMyAdmin** atau ter
 - Klik menu **Import**, pilih file: `database/schema_mysql.sql`, lalu klik **Import**.
 - Atau jalankan lewat command line:
   ```bash
-  mysql -u root -e "source d:/XAMPP/htdocs/Prototipe-Hanif-Hafidz/database/schema_mysql.sql"
+  mysql -u root -e "source d:/XAMPP/htdocs/Projek-EXPO-Kelompok-9/database/schema_mysql.sql"
   ```
 
 ### 4. Membuka Aplikasi di Browser
 Buka browser dan akses alamat:
 ```
-http://localhost/Prototipe-Hanif-Hafidz/
+http://localhost/Projek-EXPO-Kelompok-9/
 ```
 Anda dapat langsung mengakses halaman modular:
-- **Portal Login & RBAC Matrix (F01):** `http://localhost/Prototipe-Hanif-Hafidz/index.php`
-- **Antarmuka Kasir POS (F02):** `http://localhost/Prototipe-Hanif-Hafidz/pos.php`
-- **Dashboard Laba-Rugi Multi-Outlet (F06):** `http://localhost/Prototipe-Hanif-Hafidz/dashboard.php`
-- **Resep & HPP Dinamis BOM (F03):** `http://localhost/Prototipe-Hanif-Hafidz/recipes.php`
-- **Inventori & Peringatan Stok Kritis (F04/F05):** `http://localhost/Prototipe-Hanif-Hafidz/inventory.php`
-
--**Portal Login member:** http://localhost/Prototipe-Hanif-Hafidz/member/login.php
+- **Portal Login & RBAC Matrix (F01):** `http://localhost/Projek-EXPO-Kelompok-9/index.php`
+- **Antarmuka Kasir POS (F02):** `http://localhost/Projek-EXPO-Kelompok-9/pos.php`
+- **Dashboard Laba-Rugi Multi-Outlet (F06):** `http://localhost/Projek-EXPO-Kelompok-9/dashboard.php`
+- **Resep & HPP Dinamis BOM (F03):** `http://localhost/Projek-EXPO-Kelompok-9/recipes.php`
+- **Inventori & Peringatan Stok Kritis (F04/F05):** `http://localhost/Projek-EXPO-Kelompok-9/inventory.php`
+- **Portal Login Member:** `http://localhost/Projek-EXPO-Kelompok-9/member/login.php`
 
 ---
 
 ## 🗄️ Struktur Proyek (PHP Native & MySQL)
 
 ```
-Prototipe-Hanif-Hafidz/
+Projek-EXPO-Kelompok-9/
 ├── config/
 │   └── db.php                 # Konfigurasi koneksi MySQL via PDO standar XAMPP (root@localhost)
 ├── database/

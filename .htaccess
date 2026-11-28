@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Prototipe-Hanif-Hafidz/
+RewriteBase /Projek-EXPO-Kelompok-9/
 
 # Route API endpoints
 RewriteCond %{REQUEST_FILENAME} !-f
